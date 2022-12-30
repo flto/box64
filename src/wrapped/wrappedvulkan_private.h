@@ -277,7 +277,7 @@ GO(vkQueueEndDebugUtilsLabelEXT, vFp)
 GO(vkQueueInsertDebugUtilsLabelEXT, vFpp)
 GO(vkSetDebugUtilsObjectNameEXT, iFpp)
 GO(vkSetDebugUtilsObjectTagEXT, iFpp)
-//GOM(vkSubmitDebugUtilsMessageEXT, vFEpppp)    // callback in last arguments
+GO(vkSubmitDebugUtilsMessageEXT, vFpppp)
 
 // VK_KHR_external_memory_capabilities
 GO(vkGetPhysicalDeviceExternalBufferPropertiesKHR, vFppp)

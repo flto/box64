@@ -44,7 +44,7 @@ GO(wl_list_remove, vFp)
 DATA(wl_output_interface, 40)
 DATA(wl_pointer_interface, 40)
 //GO(wl_proxy_add_dispatcher, 
-//GO(wl_proxy_add_listener, 
+GOM(wl_proxy_add_listener, iFEpppL)
 GO(wl_proxy_create, pFpp)
 GO(wl_proxy_create_wrapper, pFp)
 GO(wl_proxy_destroy, vFp)
@@ -61,7 +61,7 @@ GO(wl_proxy_get_version, uFp)
 GO(wl_proxy_marshal_array_flags, pFpupuup)
 //GO(wl_proxy_marshal_constructor, 
 //GO(wl_proxy_marshal_constructor_versioned, 
-//GO(wl_proxy_marshal_flags, 
+GOM(wl_proxy_marshal_flags, pFEpupuuV)
 GO(wl_proxy_set_queue, vFpp)
 //GO(wl_proxy_set_tag, 
 //GO(wl_proxy_set_user_data, 

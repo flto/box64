@@ -1804,6 +1804,7 @@
 #() uFppuuuup
 #() LFEppLppU
 #() LFEpppppu
+#() pFEpupuuV
 #() pFEpLiiii
 #() pFEpLiiiI
 #() pFEpLiiil
@@ -2408,6 +2409,8 @@ wrappedfreetype:
 - iFpuuLppp:
   - FTC_Manager_New
 wrappedgbm:
+- vFppp:
+  - gbm_bo_set_user_data
 wrappedgconf2:
 wrappedgcrypt:
 wrappedgdk3:
@@ -4277,6 +4280,10 @@ wrappedvulkan:
 - vFpiiiupupup:
   - vkCmdPipelineBarrier
 wrappedwaylandclient:
+- iFpppL:
+  - wl_proxy_add_listener
+- pFpupuuV:
+  - wl_proxy_marshal_flags
 wrappedwaylandcursor:
 wrappedwaylandegl:
 wrappedxinerama:

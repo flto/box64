@@ -2,17 +2,17 @@
 #error meh!
 #endif
 
-//GO(wl_array_add, 
-//GO(wl_array_copy, 
-//GO(wl_array_init, 
-//GO(wl_array_release, 
-//DATA(wl_buffer_interface, 
-//DATA(wl_callback_interface, 
-//DATA(wl_compositor_interface, 
-//DATA(wl_data_device_interface, 
-//DATA(wl_data_device_manager_interface, 
-//DATA(wl_data_offer_interface, 
-//DATA(wl_data_source_interface, 
+GO(wl_array_add, pFpL)
+GO(wl_array_copy, iFpp)
+GO(wl_array_init, vFp)
+GO(wl_array_release, vFp)
+DATA(wl_buffer_interface, 40)
+DATA(wl_callback_interface, 40)
+DATA(wl_compositor_interface, 40)
+DATA(wl_data_device_interface, 40)
+DATA(wl_data_device_manager_interface, 40)
+//DATA(wl_data_offer_interface,
+DATA(wl_data_source_interface, 40)
 GO(wl_display_cancel_read, vFp)
 GO(wl_display_connect, pFp)
 GO(wl_display_connect_to_fd, pFi)
@@ -28,44 +28,44 @@ GO(wl_display_get_fd, iFp)
 //GO(wl_display_get_protocol_error, 
 //DATA(wl_display_interface, 
 GO(wl_display_prepare_read, iFp)
-//GO(wl_display_prepare_read_queue, 
+GO(wl_display_prepare_read_queue, iFpp)
 GO(wl_display_read_events, iFp)
 GO(wl_display_roundtrip, iFp)
-//GO(wl_display_roundtrip_queue, 
-//GO(wl_event_queue_destroy, 
-//DATA(wl_keyboard_interface, 
-//GO(wl_list_empty, 
-//GO(wl_list_init, 
-//GO(wl_list_insert, 
-//GO(wl_list_insert_list, 
-//GO(wl_list_length, 
-//GO(wl_list_remove, 
+GO(wl_display_roundtrip_queue, iFpp)
+GO(wl_event_queue_destroy, vFp)
+DATA(wl_keyboard_interface, 40)
+GO(wl_list_empty, iFp)
+GO(wl_list_init, vFp)
+GO(wl_list_insert, vFpp)
+GO(wl_list_insert_list, vFpp)
+GO(wl_list_length, iFp)
+GO(wl_list_remove, vFp)
 //GO(wl_log_set_handler_client, 
-//DATA(wl_output_interface, 
-//DATA(wl_pointer_interface, 
+DATA(wl_output_interface, 40)
+DATA(wl_pointer_interface, 40)
 //GO(wl_proxy_add_dispatcher, 
 //GO(wl_proxy_add_listener, 
 GO(wl_proxy_create, pFpp)
-//GO(wl_proxy_create_wrapper, 
+GO(wl_proxy_create_wrapper, pFp)
 GO(wl_proxy_destroy, vFp)
 //GO(wl_proxy_get_class, 
-//GO(wl_proxy_get_id, 
+GO(wl_proxy_get_id, uFp)
 //GO(wl_proxy_get_listener, 
 //GO(wl_proxy_get_tag, 
-//GO(wl_proxy_get_user_data, 
-//GO(wl_proxy_get_version, 
+GO(wl_proxy_get_user_data, pFp)
+GO(wl_proxy_get_version, uFp)
 //GO(wl_proxy_marshal, 
 //GO(wl_proxy_marshal_array, 
 //GO(wl_proxy_marshal_array_constructor, 
 //GO(wl_proxy_marshal_array_constructor_versioned, 
-//GO(wl_proxy_marshal_array_flags, 
+GO(wl_proxy_marshal_array_flags, pFpupuup)
 //GO(wl_proxy_marshal_constructor, 
 //GO(wl_proxy_marshal_constructor_versioned, 
 //GO(wl_proxy_marshal_flags, 
-//GO(wl_proxy_set_queue, 
+GO(wl_proxy_set_queue, vFpp)
 //GO(wl_proxy_set_tag, 
 //GO(wl_proxy_set_user_data, 
-//GO(wl_proxy_wrapper_destroy, 
+GO(wl_proxy_wrapper_destroy, vFp)
 DATA(wl_region_interface, 40)
 DATA(wl_registry_interface, 40)
 DATA(wl_seat_interface, 40)

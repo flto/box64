@@ -35,7 +35,7 @@ GO(gbm_device_is_format_supported, iFpuu)
 GO(gbm_format_get_name, pFup)
 GO(gbm_surface_create, pFpuuuu)
 GO(gbm_surface_create_with_modifiers, pFpuuupu)
-//GO(gbm_surface_create_with_modifiers2, 
+GO(gbm_surface_create_with_modifiers2, pFpuuupuu)
 GO(gbm_surface_destroy, vFp)
 GO(gbm_surface_has_free_buffers, iFp)
 GO(gbm_surface_lock_front_buffer, pFp)

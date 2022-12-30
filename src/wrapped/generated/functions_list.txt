@@ -1594,6 +1594,7 @@
 #() LFELpppi
 #() LFEppppi
 #() LFpipipi
+#() LFpuuupL
 #() LFpLippp
 #() LFSpLiip
 #() pFEpiupp
@@ -1622,6 +1623,7 @@
 #() pFpuuwwu
 #() pFpuuuuu
 #() pFpuuupu
+#() pFpupuup
 #() pFplpppp
 #() pFppiiii
 #() pFppiipp
@@ -1818,6 +1820,7 @@
 #() pFpCuuuuu
 #() pFpCpWWup
 #() pFpuuuwwu
+#() pFpuuupuu
 #() pFpuupwwC
 #() pFplppppp
 #() pFpLppiip

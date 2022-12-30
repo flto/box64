@@ -7,7 +7,7 @@ GO(xkb_compose_state_feed, iFpu)
 //GO(xkb_compose_state_get_compose_table, 
 //GO(xkb_compose_state_get_one_sym, 
 GO(xkb_compose_state_get_status, iFp)
-//GO(xkb_compose_state_get_utf8, 
+GO(xkb_compose_state_get_utf8, iFppL)
 GO(xkb_compose_state_new, pFpi)
 //GO(xkb_compose_state_ref, 
 GO(xkb_compose_state_reset, vFp)
@@ -37,6 +37,7 @@ GO(xkb_context_unref, vFp)
 GO(xkb_keymap_key_by_name, uFpp)
 //GOM(xkb_keymap_key_for_each, vFEppp)
 GO(xkb_keymap_key_get_name, pFpu)
+GO(xkb_keymap_key_get_mods_for_level, LFpuuupL)
 GO(xkb_keymap_key_get_syms_by_level, iFpuuup)
 GO(xkb_keymap_key_repeats, iFpu)
 GO(xkb_keymap_layout_get_index, uFpp)
